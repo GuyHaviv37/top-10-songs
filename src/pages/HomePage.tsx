@@ -13,14 +13,14 @@ export function HomePage() {
             <Music className="h-12 w-12 text-purple-600" />
             <Disc3 className="h-12 w-12 animate-spin-slow text-pink-600" />
           </div>
-          <h1 className="mt-6 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-5xl font-bold tracking-tight text-transparent sm:text-6xl">
+          <h1 className="mt-6 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text py-2 text-5xl font-bold tracking-tight text-transparent sm:text-6xl">
             My Top 10 Songs
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
             A musical journey through the years, featuring the tracks that defined each moment
           </p>
         </div>
-        
+
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {years.map((year, index) => (
             <div

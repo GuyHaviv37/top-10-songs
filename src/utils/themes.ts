@@ -1,3 +1,5 @@
+import { Year } from "../data/years";
+
 export interface YearTheme {
   background: string;
   cardBg: string;
@@ -9,7 +11,17 @@ export interface YearTheme {
   buttonHoverBg: string;
 }
 
-export const yearThemes: Record<number, YearTheme> = {
+export const yearThemes: Record<Year, YearTheme> = {
+  2024: {
+    background: 'from-cyan-100 via-blue-200 to-indigo-300',
+    cardBg: 'bg-white/90 backdrop-blur-sm',
+    accent: 'border-l-4 border-cyan-500',
+    text: 'text-cyan-950',
+    numberColor: 'text-cyan-400',
+    buttonBg: 'bg-cyan-100',
+    buttonText: 'text-cyan-700',
+    buttonHoverBg: 'hover:bg-cyan-200'
+  },
   2023: {
     background: 'from-rose-100 via-pink-100 to-purple-200',
     cardBg: 'bg-white/90 backdrop-blur-sm',
