@@ -595,7 +595,7 @@ export const songsByYear: YearList = {
       artist: "Frank Ocean",
       album: "Blonde",
       youtubeUrl: "https://www.youtube.com/watch?v=r4l9bFqgMaQ",
-      albumCover: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=400&h=400&fit=crop",
+      albumCover: "https://www.sleek-mag.com/wp-content/uploads/2016/08/AlbumCovers_Blonde-1200x1200.jpg",
       genre: "R&B"
     },
     {
@@ -603,7 +603,7 @@ export const songsByYear: YearList = {
       artist: "Kanye West",
       album: "The Life of Pablo",
       youtubeUrl: "https://www.youtube.com/watch?v=fWD9GF-Ogf4",
-      albumCover: "https://images.unsplash.com/photo-1484876065684-b683cf17d276?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2Fad4bYt006pvNqKTMYflIIzJg9LE%3D%2Ffit-in%2F600x600%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-8288880-1541012924-1306.jpeg.jpg&f=1&nofb=1&ipt=b7e526882d6f943b81d5e8b73ad3c2a63fef49574dabbce9d47d40ffd384dac6&ipo=images",
       genre: "Hip hop"
     },
     {
@@ -611,7 +611,7 @@ export const songsByYear: YearList = {
       artist: "Kaytranada ft. Craig David",
       album: "99.9%",
       youtubeUrl: "https://www.youtube.com/watch?v=bAX9envvbj4",
-      albumCover: "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.hmv.com%2Fr%2Fw-1280%2Fhmv%2Ffiles%2Fae%2Faecb4d79-5402-4906-8f3c-c74306c0ae55.jpg&f=1&nofb=1&ipt=a2f69111b906eb564c3f3c8f8d20e757a29d3fc57bac7e80e37c84d5f94cbf5f&ipo=images",
       genre: "R&B / Electronic"
     },
     {
@@ -619,15 +619,15 @@ export const songsByYear: YearList = {
       artist: "Chance The Rapper ft. Knox Fortune",
       album: "Coloring Book",
       youtubeUrl: "https://www.youtube.com/watch?v=lkIUnRRH6l4",
-      albumCover: "https://images.unsplash.com/photo-1482442120256-9c03866de390?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tinymixtapes.com%2Fsites%2Fdefault%2Ffiles%2F1605%2Fchance-the-rapper-coloring-book_0.jpg&f=1&nofb=1&ipt=5841e7b8fbf963dc93c03fc57d2fb3e475246612b099afbf398d4b3f87937fd9&ipo=images",
       genre: "Hip hop"
     },
     {
       title: "Drum",
       artist: "Mø",
       album: "Drum - Single",
-      youtubeUrl: "https://www.youtube.com/watch?v=9wLmVK8EmxE",
-      albumCover: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=400&fit=crop",
+      youtubeUrl: "https://youtu.be/-cO43nfWxMA?si=ruuR_ISaSh52OeNy",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.coveralia.com%2Faudio%2Fm%2FMO-Drum_(CD_Single)-Frontal.jpg&f=1&nofb=1&ipt=a41296aeffd84da2adc36ee0d55afa06b615cfd74d4ee788b8e23a1e2d01b7d0&ipo=images",
       genre: "Indie Pop"
     },
     {
@@ -635,7 +635,7 @@ export const songsByYear: YearList = {
       artist: "Amine",
       album: "Good for You",
       youtubeUrl: "https://www.youtube.com/watch?v=3aCQUm3mBYE",
-      albumCover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thebackpackerz.com%2Fwp-content%2Fuploads%2F2017%2F07%2Famine-good-for-you-album-800x800.jpg&f=1&nofb=1&ipt=80168c9da6184913713f621197f65a9446c93798d1a9cef150fdcbebdbff5dbf&ipo=images",
       genre: "Hip hop / R&B"
     },
     {
@@ -643,15 +643,15 @@ export const songsByYear: YearList = {
       artist: "The xx",
       album: "I See You",
       youtubeUrl: "https://www.youtube.com/watch?v=blJKoXWlqJk",
-      albumCover: "https://images.unsplash.com/photo-1484876065684-b683cf17d276?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.pitchfork.com%2Fphotos%2F5929c041ea9e61561daa7bb3%2F1%3A1%2Fw_600%2F55fa992b.jpg&f=1&nofb=1&ipt=a49cb6eefb13dd022c6b3070384545778618830cc952f20bdf2b947348ecf46e&ipo=images",
       genre: "Indie Rock"
     },
     {
       title: "Overtime",
       artist: "ScHoolboy Q ft. Miguel, Justin Skye",
       album: "Blank Face LP",
-      youtubeUrl: "https://www.youtube.com/watch?v=WtQkmGXYl24",
-      albumCover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
+      youtubeUrl: "https://youtu.be/l72-AuyMDEs?si=0WWyUvIhIIFXI_ns",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.r-u-ntrtnd.com%2Fuploads%2F4%2F4%2F1%2F5%2F44157805%2Fblank-face_1_orig.jpg&f=1&nofb=1&ipt=d49778bcdbea94cec6b099471c8063cb6407edacd82a299a5b821d6eccceb6e3&ipo=images",
       genre: "Hip hop"
     },
     {
@@ -659,7 +659,7 @@ export const songsByYear: YearList = {
       artist: "Flume",
       album: "Skin",
       youtubeUrl: "https://youtu.be/MbYuEEU5e50?si=YeEWux-MP5byqW9m",
-      albumCover: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2.thelineofbestfit.com%2Fimages%2Fremote%2Fhttp_cdn2.thelineofbestfit.com%2Fmedia%2F2014%2FFlume_-_Skin.jpg&f=1&nofb=1&ipt=525840b43af5c6a68197cc2cc3f7b44c17e73d0bcc2ca5905beb91fff23fddb2&ipo=images",
       genre: "Electronic"
     },
     {
@@ -667,7 +667,7 @@ export const songsByYear: YearList = {
       artist: "Rihanna",
       album: "ANTI",
       youtubeUrl: "https://youtu.be/wfN4PVaOU5Q?si=5-vuso97b8aJdvhn",
-      albumCover: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=400&h=400&fit=crop",
+      albumCover: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F61IeCixjIZL._SL1002_.jpg&f=1&nofb=1&ipt=1eace2f4214d6e108494e3cec2dbd51aef5157e06367ae307244840028a1ef4a&ipo=images",
       genre: "R&B"
     }
   ]
