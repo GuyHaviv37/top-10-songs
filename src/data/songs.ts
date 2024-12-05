@@ -21,7 +21,7 @@ export const songsByYear: YearList = {
       artist: "Caroline Polachek",
       album: "Desire, I Want to Turn Into You",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU8",
-      albumCover: "http://coverartarchive.org/release/f5d8b68d-b8ad-4817-8f2c-6b9e78687cb8/34273334129.jpg",
+      albumCover: "http://coverartarchive.org/release/f5d8b68d-b8ad-4817-8f2c-6b9e78687cb8/34273334129_thumb250.jpg",
       genre: "Art pop"
     },
     {
@@ -29,7 +29,7 @@ export const songsByYear: YearList = {
       artist: "Sufjan Stevens",
       album: "Javelin",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU9",
-      albumCover: "https://coverartarchive.org/release/b2a2c1a2-97ca-4eb7-b97e-45c4aabebb8f/36967633475.jpg",
+      albumCover: "https://coverartarchive.org/release/b2a2c1a2-97ca-4eb7-b97e-45c4aabebb8f/36967633475_thumb250.jpg",
       genre: "Indie folk"
     },
     {
@@ -37,7 +37,7 @@ export const songsByYear: YearList = {
       artist: "Royal Blood",
       album: "Back to the Water",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg0",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Back_to_the_Water.jpg/220px-Back_to_the_Water.jpg",
+      albumCover: "https://ia903203.us.archive.org/7/items/mbid-bcdeb00e-c6c2-42c8-a672-a2821e4fb966/mbid-bcdeb00e-c6c2-42c8-a672-a2821e4fb966-39257719020_thumb250.jpg",
       genre: "Rock"
     },
     {
@@ -45,15 +45,15 @@ export const songsByYear: YearList = {
       artist: "Sigrid",
       album: "How to Let Go",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg1",
-      albumCover: "http://coverartarchive.org/release/24836511-984b-4e10-ac35-8dd68422f9c2/36131469139.jpg",
+      albumCover: "http://coverartarchive.org/release/24836511-984b-4e10-ac35-8dd68422f9c2/36131469139_thumb250.jpg",
       genre: "Pop"
     },
     {
       title: "After Midnight",
       artist: "Phoenix (feat. Clairo)",
-      album: "Alpha Zulu (remixes)",
+      album: "Alpha Zulu (Remixes)",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg2",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Alpha_Zulu.jpg/220px-Alpha_Zulu.jpg",
+      albumCover: "https://ia801503.us.archive.org/15/items/mbid-b1cdfe24-70a2-4606-84af-be6679fad505/mbid-b1cdfe24-70a2-4606-84af-be6679fad505-33429848334_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -61,7 +61,7 @@ export const songsByYear: YearList = {
       artist: "Lil Yachty",
       album: "Let's Start Here.",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg3",
-      albumCover: "http://coverartarchive.org/release/e2f35059-843f-433e-a0fc-b07a228987b1/34732125728.jpg",
+      albumCover: "http://coverartarchive.org/release/e2f35059-843f-433e-a0fc-b07a228987b1/34732125728_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -69,15 +69,15 @@ export const songsByYear: YearList = {
       artist: "Boygenius",
       album: "the record",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg4",
-      albumCover: "http://coverartarchive.org/release/31c4f6a9-c68f-4ae5-911b-5cf1ffec81d2/35270611926.jpg",
+      albumCover: "http://coverartarchive.org/release/31c4f6a9-c68f-4ae5-911b-5cf1ffec81d2/35270611926_thumb250.jpg",
       genre: "Indie rock"
     },
     {
       title: "baby again…",
       artist: "Fred again.., Skrillex, Four Tet",
-      album: "DGTD",
+      album: "baby again… (Single)",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg5",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/DGTD.jpg/220px-DGTD.jpg",
+      albumCover: "https://ia801604.us.archive.org/12/items/mbid-0da2f3e2-deaf-4352-aafc-8fe66b4b4143/mbid-0da2f3e2-deaf-4352-aafc-8fe66b4b4143-35151675912_thumb250.jpg",
       genre: "Electronic"
     },
     {
@@ -85,7 +85,7 @@ export const songsByYear: YearList = {
       artist: "André 3000",
       album: "The Love Below",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg6",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/The_Love_Below.jpg/220px-The_Love_Below.jpg",
+      albumCover: "https://ia600505.us.archive.org/9/items/mbid-a1b8c20c-cde9-4caa-bcbc-bd7fa27841a2/mbid-a1b8c20c-cde9-4caa-bcbc-bd7fa27841a2-37247711392_thumb250.jpg",
       genre: "Alternative hip hop"
     },
     {
@@ -93,7 +93,7 @@ export const songsByYear: YearList = {
       artist: "Gorillaz (ft. Bootie Brown & Tame Impala)",
       album: "Cracker Island",
       youtubeUrl: "https://www.youtube.com/watch?v=j5-yKhDd6Cg7",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Cracker_Island.jpg/220px-Cracker_Island.jpg",
+      albumCover: "https://ia601604.us.archive.org/28/items/mbid-8e6d8b2c-4ac7-4191-808f-320ab459825c/mbid-8e6d8b2c-4ac7-4191-808f-320ab459825c-34976602644_thumb250.jpg",
       genre: "Alternative hip hop"
     }
   ],
@@ -103,7 +103,7 @@ export const songsByYear: YearList = {
       artist: "Joji",
       album: "Smithereens",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE48",
-      albumCover: "http://coverartarchive.org/release/31ced3da-acb5-4dcd-b3df-1a7319470a63/34003899735.jpg",
+      albumCover: "http://coverartarchive.org/release/31ced3da-acb5-4dcd-b3df-1a7319470a63/34003899735_thumb250.jpg",
       genre: "Indie R&B"
     },
     {
@@ -111,15 +111,15 @@ export const songsByYear: YearList = {
       artist: "Yeah Yeah Yeahs (ft. Perfume Genius)",
       album: "Cool It Down",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE49",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Cool_It_Down.jpg/220px-Cool_It_Down.jpg",
+      albumCover: "https://ia801403.us.archive.org/29/items/mbid-d8b79454-683d-422f-976c-26231433b585/mbid-d8b79454-683d-422f-976c-26231433b585-33727993765_thumb250.jpg",
       genre: "Indie rock"
     },
     {
-      title: "turn on the lights",
+      title: "Turn On The Lights again...",
       artist: "Fred again... (ft. Future and SHM)",
-      album: "Actual Life 3 (January 1 - September 9 2022)",
+      album: "Turn On The Lights again... (Single)",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU0",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Actual_Life_3_%28January_1_-_September_9_2022%29.jpg/220px-Actual_Life_3_%28January_1_-_September_9_2022%29.jpg",
+      albumCover: "https://ia601406.us.archive.org/3/items/mbid-dc30708d-4d5a-407f-bc24-95a56a15be51/mbid-dc30708d-4d5a-407f-bc24-95a56a15be51-33159384311_thumb250.jpg",
       genre: "Electronic"
     },
     {
@@ -127,7 +127,7 @@ export const songsByYear: YearList = {
       artist: "Maggie Rogers",
       album: "Surrender",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU1",
-      albumCover: "http://coverartarchive.org/release/9991d3c5-e838-4191-aaff-70d0a63ce5b9/34147011567.jpg",
+      albumCover: "http://coverartarchive.org/release/9991d3c5-e838-4191-aaff-70d0a63ce5b9/34147011567_thumb250.jpg",
       genre: "Indie pop"
     },
     {
@@ -135,7 +135,7 @@ export const songsByYear: YearList = {
       artist: "Wet Leg",
       album: "Wet Leg",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU2",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Wet_Leg_%28album%29.jpg/220px-Wet_Leg_%28album%29.jpg",
+      albumCover: "https://ia800301.us.archive.org/17/items/mbid-9ae2c520-80b4-4b84-9e71-129d9c32a993/mbid-9ae2c520-80b4-4b84-9e71-129d9c32a993-38642593025_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -143,7 +143,7 @@ export const songsByYear: YearList = {
       artist: "Foals",
       album: "Life Is Yours",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU3",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Life_Is_Yours.jpg/220px-Life_Is_Yours.jpg",
+      albumCover: "https://ia800600.us.archive.org/9/items/mbid-fa6021ad-db43-4ba5-ba18-310ee862f709/mbid-fa6021ad-db43-4ba5-ba18-310ee862f709-32682719666_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -151,7 +151,7 @@ export const songsByYear: YearList = {
       artist: "Phoenix (ft. Ezra Koenig)",
       album: "Alpha Zulu",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU4",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Alpha_Zulu.jpg/220px-Alpha_Zulu.jpg",
+      albumCover: "https://ia801401.us.archive.org/21/items/mbid-e924bf23-690e-498e-af0a-2b2a2a8c958b/mbid-e924bf23-690e-498e-af0a-2b2a2a8c958b-33504645284_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -167,7 +167,7 @@ export const songsByYear: YearList = {
       artist: "Sigrid",
       album: "How to Let Go",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU6",
-      albumCover: "http://coverartarchive.org/release/24836511-984b-4e10-ac35-8dd68422f9c2/36131469139.jpg",
+      albumCover: "http://coverartarchive.org/release/24836511-984b-4e10-ac35-8dd68422f9c2/36131469139_thumb250.jpg",
       genre: "Pop"
     },
     {
@@ -185,7 +185,7 @@ export const songsByYear: YearList = {
       artist: "Kanye West",
       album: "Donda",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k8",
-      albumCover: "https://coverartarchive.org/release/c3947e5b-8c83-4110-8439-0384c13adf35/37445710279.jpg",
+      albumCover: "https://coverartarchive.org/release/c3947e5b-8c83-4110-8439-0384c13adf35/37445710279_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -193,7 +193,7 @@ export const songsByYear: YearList = {
       artist: "Julien Baker",
       album: "Little Oblivions",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k9",
-      albumCover: "http://coverartarchive.org/release/44eb4524-5487-43f9-8c31-8ad0738b77af/28690934637.jpg",
+      albumCover: "http://coverartarchive.org/release/44eb4524-5487-43f9-8c31-8ad0738b77af/28690934637_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -201,7 +201,7 @@ export const songsByYear: YearList = {
       artist: "Jorja Smith",
       album: "Be Right Back",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE40",
-      albumCover: "http://coverartarchive.org/release/c149fccf-d66f-4143-85c0-fbec06e7ae68/29132028349.jpg",
+      albumCover: "http://coverartarchive.org/release/c149fccf-d66f-4143-85c0-fbec06e7ae68/29132028349_thumb250.jpg",
       genre: "R&B"
     },
     {
@@ -209,7 +209,7 @@ export const songsByYear: YearList = {
       artist: "Silk Sonic",
       album: "An Evening with Silk Sonic",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE41",
-      albumCover: "http://coverartarchive.org/release/b2b2af98-5735-463e-bd99-73cdd6275795/34236272710.jpg",
+      albumCover: "http://coverartarchive.org/release/b2b2af98-5735-463e-bd99-73cdd6275795/34236272710_thumb250.jpg",
       genre: "R&B"
     },
     {
@@ -217,7 +217,7 @@ export const songsByYear: YearList = {
       artist: "Adele",
       album: "30",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE42",
-      albumCover: "http://coverartarchive.org/release/5c2b134a-70df-4bd3-8b72-7cfce4f82e49/30826984527.jpg",
+      albumCover: "http://coverartarchive.org/release/5c2b134a-70df-4bd3-8b72-7cfce4f82e49/30826984527_thumb250.jpg",
       genre: "Pop"
     },
     {
@@ -225,7 +225,7 @@ export const songsByYear: YearList = {
       artist: "Royal Blood",
       album: "Typhoons",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE43",
-      albumCover: "http://coverartarchive.org/release/e51b32a1-4c35-4272-812b-c89b7f767ccc/35823027270.jpg",
+      albumCover: "http://coverartarchive.org/release/e51b32a1-4c35-4272-812b-c89b7f767ccc/35823027270_thumb250.jpg",
       genre: "Rock"
     },
     {
@@ -233,7 +233,7 @@ export const songsByYear: YearList = {
       artist: "Tyler, The Creator",
       album: "CALL ME IF YOU GET LOST",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE44",
-      albumCover: "https://coverartarchive.org/release/f5b58aae-9d96-469b-a9f2-7c35a9d33d31/29709690464.jpg",
+      albumCover: "https://coverartarchive.org/release/f5b58aae-9d96-469b-a9f2-7c35a9d33d31/29709690464_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -241,7 +241,7 @@ export const songsByYear: YearList = {
       artist: "Drake",
       album: "Certified Lover Boy",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE45",
-      albumCover: "http://coverartarchive.org/release/ac42ebb0-26d4-44c8-b8b4-fa45b54bd965/32793982004.jpg",
+      albumCover: "http://coverartarchive.org/release/ac42ebb0-26d4-44c8-b8b4-fa45b54bd965/32793982004_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -249,7 +249,7 @@ export const songsByYear: YearList = {
       artist: "Snail Mail",
       album: "Valentine",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE46",
-      albumCover: "http://coverartarchive.org/release/c0891bc1-237a-4c78-815c-9f040f1cb916/30582485026.jpg",
+      albumCover: "http://coverartarchive.org/release/c0891bc1-237a-4c78-815c-9f040f1cb916/30582485026_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -257,7 +257,7 @@ export const songsByYear: YearList = {
       artist: "Pop Smoke",
       album: "Faith",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE47",
-      albumCover: "http://coverartarchive.org/release/4381d0de-0a88-4dc5-bd13-02ad0fd837b0/33867787148.jpg",
+      albumCover: "http://coverartarchive.org/release/4381d0de-0a88-4dc5-bd13-02ad0fd837b0/33867787148_thumb250.jpg",
       genre: "Hip hop"
     }
   ],
@@ -267,7 +267,7 @@ export const songsByYear: YearList = {
       artist: "Phoebe Bridgers",
       album: "Punisher",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y88",
-      albumCover: "http://coverartarchive.org/release/02ebd58b-2e50-4f02-9191-795d7fdc6295/26697443941.jpg",
+      albumCover: "http://coverartarchive.org/release/02ebd58b-2e50-4f02-9191-795d7fdc6295/26697443941_thumb250.jpg",
       genre: "Indie folk"
     },
     {
@@ -275,7 +275,7 @@ export const songsByYear: YearList = {
       artist: "Tame Impala",
       album: "The Slow Rush",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y89",
-      albumCover: "http://coverartarchive.org/release/3a12923d-97cd-4e87-8cfd-fb67be970974/24476666796.jpg",
+      albumCover: "http://coverartarchive.org/release/3a12923d-97cd-4e87-8cfd-fb67be970974/24476666796_thumb250.jpg",
       genre: "Psychedelic rock"
     },
     {
@@ -283,7 +283,7 @@ export const songsByYear: YearList = {
       artist: "The Weeknd",
       album: "After Hours",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k0",
-      albumCover: "http://coverartarchive.org/release/19e4f6cc-ca0c-4897-8dfc-a36914b7f998/25720993837.jpg",
+      albumCover: "http://coverartarchive.org/release/19e4f6cc-ca0c-4897-8dfc-a36914b7f998/25720993837_thumb250.jpg",
       genre: "R&B"
     },
     {
@@ -291,7 +291,7 @@ export const songsByYear: YearList = {
       artist: "Fleet Foxes",
       album: "Shore",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k1",
-      albumCover: "http://coverartarchive.org/release/68d83092-6c51-4020-9a1d-116c9ef91f92/29514044499.jpg",
+      albumCover: "http://coverartarchive.org/release/68d83092-6c51-4020-9a1d-116c9ef91f92/29514044499_thumb250.jpg",
       genre: "Indie folk"
     },
     {
@@ -299,7 +299,7 @@ export const songsByYear: YearList = {
       artist: "Kid Cudi",
       album: "Man on the Moon III: The Chosen",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k2",
-      albumCover: "http://coverartarchive.org/release/15c4c708-5599-4c7b-896f-741208e12dce/28017801900.jpg",
+      albumCover: "http://coverartarchive.org/release/15c4c708-5599-4c7b-896f-741208e12dce/28017801900_thumb250.jpg",
       genre: "Alternative hip hop"
     },
     {
@@ -307,7 +307,7 @@ export const songsByYear: YearList = {
       artist: "Grimes",
       album: "Miss Anthropocene",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k3",
-      albumCover: "http://coverartarchive.org/release/ab90c270-5aae-4712-8b69-3c137459736d/24649231843.jpg",
+      albumCover: "http://coverartarchive.org/release/ab90c270-5aae-4712-8b69-3c137459736d/24649231843_thumb250.jpg",
       genre: "Electropop"
     },
     {
@@ -315,7 +315,7 @@ export const songsByYear: YearList = {
       artist: "Freddie Gibbs & The Alchemist",
       album: "Alfredo",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k4",
-      albumCover: "http://coverartarchive.org/release/afbdebc0-d9e5-494f-a8f6-c02ac035914d/37681153672.jpg",
+      albumCover: "http://coverartarchive.org/release/afbdebc0-d9e5-494f-a8f6-c02ac035914d/37681153672_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -323,7 +323,7 @@ export const songsByYear: YearList = {
       artist: "Dua Lipa",
       album: "Future Nostalgia",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k5",
-      albumCover: "http://coverartarchive.org/release/4cd71b3a-af53-41b5-a9c3-c67e51f012e7/27963602431.jpg",
+      albumCover: "http://coverartarchive.org/release/4cd71b3a-af53-41b5-a9c3-c67e51f012e7/27963602431_thumb250.jpg",
       genre: "Pop"
     },
     {
@@ -331,7 +331,7 @@ export const songsByYear: YearList = {
       artist: "Joji",
       album: "Nectar",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k6",
-      albumCover: "http://coverartarchive.org/release/a9401213-34e8-4a65-b1ed-487b165929e5/27350272133.jpg",
+      albumCover: "http://coverartarchive.org/release/a9401213-34e8-4a65-b1ed-487b165929e5/27350272133_thumb250.jpg",
       genre: "Indie R&B"
     },
     {
@@ -339,7 +339,7 @@ export const songsByYear: YearList = {
       artist: "Drake",
       album: "Dark Lane Demo Tapes",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k7",
-      albumCover: "http://coverartarchive.org/release/ac42ebb0-26d4-44c8-b8b4-fa45b54bd965/32793982004.jpg",
+      albumCover: "http://coverartarchive.org/release/ac42ebb0-26d4-44c8-b8b4-fa45b54bd965/32793982004_thumb250.jpg",
       genre: "Hip hop"
     }
   ],
@@ -349,15 +349,15 @@ export const songsByYear: YearList = {
       artist: "Clairo",
       album: "Immunity",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g8",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Immunity_%28Clairo_album%29.jpg/220px-Immunity_%28Clairo_album%29.jpg",
+      albumCover: "http://coverartarchive.org/release/ad6e1e59-6b26-4476-a9bd-70dcb13684de/23121667485_thumb250.png",
       genre: "Indie pop"
     },
     {
       title: "NO HALO",
       artist: "BROCKHAMPTON",
-      album: "PULSE",
+      album: "Ginger",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g9",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/PULSE_%28Brockhampton_album%29.jpg/220px-PULSE_%28Brockhampton_album%29.jpg",
+      albumCover: "https://ia902708.us.archive.org/0/items/mbid-8864f74b-4fe0-45a3-a201-a0e2f66ef9c8/mbid-8864f74b-4fe0-45a3-a201-a0e2f66ef9c8-32671868236_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -365,7 +365,7 @@ export const songsByYear: YearList = {
       artist: "Dreamville (ft. Buddy, Ski Mask the Slump God)",
       album: "Revenge of the Dreamers III",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y80",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Revenge_of_the_Dreamers_III.jpg/220px-Revenge_of_the_Dreamers_III.jpg",
+      albumCover: "https://ia803101.us.archive.org/28/items/mbid-4f4c2124-fe65-42dd-824b-4511a79fabee/mbid-4f4c2124-fe65-42dd-824b-4511a79fabee-24684719232_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -373,7 +373,7 @@ export const songsByYear: YearList = {
       artist: "Bon Iver",
       album: "i,i",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y81",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/i,_i.jpg/220px-i,_i.jpg",
+      albumCover: "http://coverartarchive.org/release/ad6f5017-0cf1-495a-a16b-d22ffbb3d0b5/32060673343_thumb250.jpg",
       genre: "Indie folk"
     },
     {
@@ -381,15 +381,15 @@ export const songsByYear: YearList = {
       artist: "The Weeknd",
       album: "After Hours",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y82",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/After_Hours_%28The_Weeknd_album%29.jpg/220px-After_Hours_%28The_Weeknd_album%29.jpg",
+      albumCover: "http://coverartarchive.org/release/19e4f6cc-ca0c-4897-8dfc-a36914b7f998/25720993837_thumb250.jpg",
       genre: "R&B"
     },
     {
       title: "Omertà",
       artist: "Drake",
-      album: "Dark Lane Demo Tapes",
+      album: "The Best in the World Pack",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y83",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Dark_Lane_Demo_Tapes.jpg/220px-Dark_Lane_Demo_Tapes.jpg",
+      albumCover: "https://ia801006.us.archive.org/18/items/mbid-cd1f3a1d-cb3c-441f-809f-c09b4d4362e8/mbid-cd1f3a1d-cb3c-441f-809f-c09b4d4362e8-23892261517_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -397,7 +397,7 @@ export const songsByYear: YearList = {
       artist: "Kanye West (ft. Clipse, Kenny G)",
       album: "Jesus Is King",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y84",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Jesus_Is_King.jpg/220px-Jesus_Is_King.jpg",
+      albumCover: "https://ia601704.us.archive.org/22/items/mbid-c347a1ef-11e3-4cff-a99c-e626eca8cdea/mbid-c347a1ef-11e3-4cff-a99c-e626eca8cdea-27721678512_thumb250.jpg",
       genre: "Gospel rap"
     },
     {
@@ -405,7 +405,7 @@ export const songsByYear: YearList = {
       artist: "Roddy Ricch",
       album: "Please Excuse Me for Being Antisocial",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y85",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Please_Excuse_Me_for_Being_Antisocial.jpg/220px-Please_Excuse_Me_for_Being_Antisocial.jpg",
+      albumCover: "http://coverartarchive.org/release/9e344557-cd4c-4429-aad7-920d3860ca19/27180213099_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -413,7 +413,7 @@ export const songsByYear: YearList = {
       artist: "JackBoys",
       album: "JACKBOYS",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y86",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/JACKBOYS.jpg/220px-JACKBOYS.jpg",
+      albumCover: "http://coverartarchive.org/release/98ea43f4-4617-4a41-b8fa-f14bc78bfe11/28619214327_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -421,7 +421,7 @@ export const songsByYear: YearList = {
       artist: "Freddie Gibbs & Madlib",
       album: "Alfredo",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y87",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Alfredo_%28album%29.jpg/220px-Alfredo_%28album%29.jpg",
+      albumCover: "https://ia804606.us.archive.org/23/items/mbid-afbdebc0-d9e5-494f-a8f6-c02ac035914d/mbid-afbdebc0-d9e5-494f-a8f6-c02ac035914d-37681153672_thumb250.jpg",
       genre: "Hip hop"
     }
   ],
@@ -431,7 +431,7 @@ export const songsByYear: YearList = {
       artist: "Travis Scott",
       album: "Astroworld",
       youtubeUrl: "https://www.youtube.com/watch?v=2_1o31LhE788",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Astroworld_by_Travis_Scott.jpg/220px-Astroworld_by_Travis_Scott.jpg",
+      albumCover: "https://ia800903.us.archive.org/0/items/mbid-82784744-65ed-4f32-b004-ba45cd726509/mbid-82784744-65ed-4f32-b004-ba45cd726509-22387554802_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -439,7 +439,7 @@ export const songsByYear: YearList = {
       artist: "Lil Baby & Gunna",
       album: "Drip Harder",
       youtubeUrl: "https://www.youtube.com/watch?v=2_1o31LhE789",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Drip_Harder.jpg/220px-Drip_Harder.jpg",
+      albumCover: "http://coverartarchive.org/release/216461dd-4522-4f71-9d9d-70377393821e/21210802206_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -447,7 +447,7 @@ export const songsByYear: YearList = {
       artist: "Denzel Curry",
       album: "TA13OO",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g0",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/TA13OO.jpg/220px-TA13OO.jpg",
+      albumCover: "https://ia803105.us.archive.org/21/items/mbid-2da72cb7-16d4-4dca-8818-a355b074a977/mbid-2da72cb7-16d4-4dca-8818-a355b074a977-21815634824_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -455,7 +455,7 @@ export const songsByYear: YearList = {
       artist: "Sheck Wes",
       album: "Mudboy",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g1",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Mudboy.jpg/220px-Mudboy.jpg",
+      albumCover: "http://coverartarchive.org/release/1deab31f-e0a7-416e-b7ec-f8dcaf53c2a2/21166901055_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -463,15 +463,15 @@ export const songsByYear: YearList = {
       artist: "Joji",
       album: "BALLADS 1",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g2",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Joji_-_BALLADS_1.jpg/220px-Joji_-_BALLADS_1.jpg",
+      albumCover: "http://coverartarchive.org/release/8137ca0f-123a-4800-8b28-f1f3be6c938d/22161245781_thumb250.jpg",
       genre: "Indie R&B"
     },
     {
       title: "Praise The Lord (Da Shine)",
       artist: "A$AP Rocky ft. Skepta",
-      album: "Testing",
+      album: "TESTING",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g3",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Testing_%28A%24AP_Rocky_album%29.jpg/220px-Testing_%28A%24AP_Rocky_album%29.jpg",
+      albumCover: "https://ia601705.us.archive.org/25/items/mbid-8cb1451e-5123-4718-aa50-b939f20927b4/mbid-8cb1451e-5123-4718-aa50-b939f20927b4-26951135579_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -479,7 +479,7 @@ export const songsByYear: YearList = {
       artist: "Playboi Carti",
       album: "Die Lit",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g4",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Die_Lit.jpg/220px-Die_Lit.jpg",
+      albumCover: "https://coverartarchive.org/release/c8cf2491-a79c-4b08-a2a8-9f365bb06047/38743511887_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -487,13 +487,13 @@ export const songsByYear: YearList = {
       artist: "Juice WRLD",
       album: "Goodbye & Good Riddance",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g5",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Goodbye_%26_Good_Riddance.jpg/220px-Goodbye_%26_Good_Riddance.jpg",
+      albumCover: "http://coverartarchive.org/release/e129a939-e8df-45b6-a04c-a2bd6bf992d7/22027293827_thumb250.jpg",
       genre: "Emo rap"
     },
     {
       title: "Beam",
-      artist: "Rich Brian ft. Playboi Carti",
-      album: "The Sailor",
+      artist: "88rising & Rich Brian ft. Playboi Carti",
+      album: "Head in the Clouds",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g6",
       albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/The_Sailor.jpg/220px-The_Sailor.jpg",
       genre: "Hip hop"
@@ -503,7 +503,7 @@ export const songsByYear: YearList = {
       artist: "KIDS SEE GHOSTS",
       album: "KIDS SEE GHOSTS",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g7",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Kids_See_Ghosts.jpg/220px-Kids_See_Ghosts.jpg",
+      albumCover: "http://coverartarchive.org/release/7978781d-bf95-4899-9d1d-e12ba68b9491/20374101987_thumb250.jpg",
       genre: "Alternative hip hop"
     }
   ],
