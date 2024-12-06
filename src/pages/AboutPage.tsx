@@ -3,7 +3,7 @@ import { ArrowLeft } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
 const aboutContent = `
-# About "Guy's Top 10 Songs"
+# Guy's Top 10 Songs
 
 This is a personal collection of my favorite songs from each year, carefully curated to capture the music that defined these moments of my life.
 
@@ -16,8 +16,9 @@ I did make an expection here or there, if a song was released late in the prior 
 
 I created this site to:
 - Document my musical journey through the years
-- Share my favorite songs and discoveries
+- Share my favorite songs with the people I care about
 - Create a time capsule of musical memories
+- Maybe later I'll use it to get insights into my music preferences over time
 - Try and build a cool static website strictly with AI tools
 
 Feel free to explore the years and discover some new music!
