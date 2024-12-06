@@ -22,6 +22,7 @@ I created this site to:
 - Try and build a cool static website strictly with AI tools
 
 Feel free to explore the years and discover some new music!
+
 `;
 
 export function AboutPage() {
