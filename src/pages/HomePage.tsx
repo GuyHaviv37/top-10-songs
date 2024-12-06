@@ -11,7 +11,7 @@ export function HomePage() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
       <div className="absolute inset-0 bg-grid-slate-900/[0.04] -z-1" />
 
-      <nav className="absolute top-0 right-0 p-4">
+      <nav className="absolute top-0 right-0 p-4 z-10">
         <Link
           to="/about"
           className="px-4 py-2 font-medium text-gray-600 hover:text-indigo-600 transition-colors"
