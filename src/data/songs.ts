@@ -159,7 +159,7 @@ export const songsByYear: YearList = {
       artist: "beabadoobee",
       album: "Beatopia",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU5",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Beatopia.jpg/220px-Beatopia.jpg",
+      albumCover: "https://ia601606.us.archive.org/15/items/mbid-9c1f0927-de84-42c5-9f80-51641a95bbf5/mbid-9c1f0927-de84-42c5-9f80-51641a95bbf5-40018078549_thumb250.jpg",
       genre: "Indie rock"
     },
     {
@@ -173,9 +173,9 @@ export const songsByYear: YearList = {
     {
       title: "Shooting Stars",
       artist: "Flume (ft. Toro y Moi)",
-      album: "Flume",
+      album: "from triplej Like a Version",
       youtubeUrl: "https://www.youtube.com/watch?v=tvTRZJgwQdU7",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Flume_%28album%29.jpg/220px-Flume_%28album%29.jpg",
+      albumCover: "https://is4-ssl.mzstatic.com/image/thumb/Music112/v4/bf/6c/6b/bf6c6b94-de41-7fea-facd-c1afc0a57ae7/197187525454.jpg/250x250bf-60.jpg",
       genre: "Electronic"
     }
   ],
@@ -241,7 +241,7 @@ export const songsByYear: YearList = {
       artist: "Drake",
       album: "Certified Lover Boy",
       youtubeUrl: "https://www.youtube.com/watch?v=l9h83622wE45",
-      albumCover: "http://coverartarchive.org/release/ac42ebb0-26d4-44c8-b8b4-fa45b54bd965/32793982004_thumb250.jpg",
+      albumCover: "https://ia902306.us.archive.org/30/items/mbid-18701a2e-8ca7-46ed-b233-33dde2c2197e/mbid-18701a2e-8ca7-46ed-b233-33dde2c2197e-32793768994_thumb250.jpg",
       genre: "Hip hop"
     },
     {
@@ -267,7 +267,7 @@ export const songsByYear: YearList = {
       artist: "Phoebe Bridgers",
       album: "Punisher",
       youtubeUrl: "https://www.youtube.com/watch?v=5o90mS0U3y88",
-      albumCover: "http://coverartarchive.org/release/02ebd58b-2e50-4f02-9191-795d7fdc6295/26697443941_thumb250.jpg",
+      albumCover: "https://ia801500.us.archive.org/16/items/mbid-446e1326-f326-4949-83fd-c1e8154db31d/mbid-446e1326-f326-4949-83fd-c1e8154db31d-33422723427_thumb250.jpg",
       genre: "Indie folk"
     },
     {
@@ -307,7 +307,7 @@ export const songsByYear: YearList = {
       artist: "Grimes",
       album: "Miss Anthropocene",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k3",
-      albumCover: "http://coverartarchive.org/release/ab90c270-5aae-4712-8b69-3c137459736d/24649231843_thumb250.jpg",
+      albumCover: "https://ia903102.us.archive.org/5/items/mbid-7d375d90-cb07-4a9d-8088-c45763716928/mbid-7d375d90-cb07-4a9d-8088-c45763716928-24632839568_thumb250.jpg",
       genre: "Electropop"
     },
     {
@@ -336,10 +336,10 @@ export const songsByYear: YearList = {
     },
     {
       title: "Laugh Now Cry Later",
-      artist: "Drake",
-      album: "Dark Lane Demo Tapes",
+      artist: "Drake (feat. Lil Durk)",
+      album: "Laugh Now Cry Late (Single)",
       youtubeUrl: "https://www.youtube.com/watch?v=41u4k0l394k7",
-      albumCover: "http://coverartarchive.org/release/ac42ebb0-26d4-44c8-b8b4-fa45b54bd965/32793982004_thumb250.jpg",
+      albumCover: "https://ia800405.us.archive.org/34/items/mbid-5a8de120-a048-42c3-84b1-e21b312d8615/mbid-5a8de120-a048-42c3-84b1-e21b312d8615-31976441858_thumb250.jpg",
       genre: "Hip hop"
     }
   ],
@@ -495,7 +495,7 @@ export const songsByYear: YearList = {
       artist: "88rising & Rich Brian ft. Playboi Carti",
       album: "Head in the Clouds",
       youtubeUrl: "https://www.youtube.com/watch?v=n6d4w9ZbA7g6",
-      albumCover: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/The_Sailor.jpg/220px-The_Sailor.jpg",
+      albumCover: "https://ia902800.us.archive.org/12/items/mbid-2f2d4ec7-8b9e-44c3-9573-fe0ea4b2f24e/mbid-2f2d4ec7-8b9e-44c3-9573-fe0ea4b2f24e-20502924204_thumb250.jpg",
       genre: "Hip hop"
     },
     {
