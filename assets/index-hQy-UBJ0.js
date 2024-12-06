@@ -138,4 +138,5 @@ I created this site to:
 - Try and build a cool static website strictly with AI tools
 
 Feel free to explore the years and discover some new music!
+
 `;function kS(){return j.jsx("div",{className:"min-h-screen bg-gradient-to-br from-slate-900 to-slate-800",children:j.jsxs("div",{className:"mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8",children:[j.jsxs(na,{to:"/",className:"inline-flex items-center text-sm text-slate-200 hover:opacity-75",children:[j.jsx(Pm,{className:"mr-2 h-4 w-4"}),"Back to Years"]}),j.jsx("div",{className:"mt-8 prose prose-invert prose-slate max-w-none",children:j.jsx(vS,{children:xS})})]})})}function qa(e){return j.jsxs(j.Fragment,{children:[e,j.jsx(Pv,{})]})}const SS=dv([{path:"/",element:qa(j.jsx(Av,{}))},{path:"/year/:year",element:qa(j.jsx(Wv,{}))},{path:"/about",element:qa(j.jsx(kS,{}))}]);function bS(){return j.jsx(j.Fragment,{children:j.jsx(kv,{router:SS})})}cm(document.getElementById("root")).render(j.jsx(I.StrictMode,{children:j.jsx(bS,{})}));
