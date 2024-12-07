@@ -3,6 +3,7 @@ import { HomePage } from './pages/HomePage';
 import { YearPage } from './pages/YearPage';
 import { AboutPage } from './pages/AboutPage';
 import { withScrollRestoration } from './utils/layout';
+import InsightsPage from './pages/InsightsPage';
 
 
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: withScrollRestoration(<AboutPage />)
+  },
+  {
+    path: "/insights",
+    element: withScrollRestoration(<InsightsPage />)
   }
 ]);
 

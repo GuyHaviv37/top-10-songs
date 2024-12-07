@@ -18,6 +18,12 @@ export function HomePage() {
         >
           About
         </Link>
+        <Link
+          to="/insights"
+          className="px-4 py-2 font-medium text-gray-600 hover:text-indigo-600 transition-colors"
+        >
+          Insights
+        </Link>
       </nav>
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
