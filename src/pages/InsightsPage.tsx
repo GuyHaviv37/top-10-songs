@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft, TrendingUp } from 'lucide-react';
-import { Line } from 'react-chartjs-2';
+import { Line, Pie } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -9,15 +9,19 @@ import {
     LineElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+    ArcElement,
+    Filler
 } from 'chart.js';
-import { getGenreCounts } from '../data/insights';
+import { getArtistCounts, getGenreCounts } from '../data/insights';
 
 ChartJS.register(
     CategoryScale,
     LinearScale,
     PointElement,
     LineElement,
+    ArcElement,
+    Filler,
     Title,
     Tooltip,
     Legend
@@ -25,6 +29,7 @@ ChartJS.register(
 
 function InsightsPage() {
     const genreCounts = getGenreCounts();
+    const artistCounts = getArtistCounts();
 
     const data = {
         labels: genreCounts.map(count => count.year.toString()),
@@ -82,6 +87,60 @@ function InsightsPage() {
         }
     };
 
+    const pieData = {
+        labels: artistCounts.labels,
+        datasets: [{
+            data: artistCounts.data,
+            backgroundColor: [
+                '#38bdf8', // sky-400
+                '#f472b6', // pink-400
+                '#4ade80', // green-400
+                '#fb923c', // orange-400
+                '#a78bfa', // violet-400
+                '#f87171', // red-400
+                '#facc15', // yellow-400
+                '#2dd4bf', // teal-400
+                '#e879f9', // fuchsia-400
+                '#c084fc', // purple-400 (for Other)
+                '#94a3b8', // slate-400 (for Other)
+            ],
+            borderColor: '#1e293b', // slate-800
+            borderWidth: 2,
+        }],
+    };
+
+    const pieOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                position: 'right' as const,
+                labels: {
+                    color: '#e2e8f0', // slate-200
+                    padding: 15,        // Reduced padding between items
+                    font: {
+                        size: 13        // Slightly smaller font size
+                    }
+                }
+            },
+            title: {
+                display: true,
+                text: 'Most Featured Artists',
+                color: '#e2e8f0', // slate-200
+                font: {
+                    size: 16
+                },
+                padding: 15            // Reduced padding below title
+            }
+        },
+        layout: {
+            padding: {
+                left: 15,              // Reduced layout padding
+                right: 15
+            }
+        }
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800">
             <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -114,6 +173,23 @@ function InsightsPage() {
                         gradual shift towards indie music, particularly indie rock and folk, in recent years.
                         This evolution suggests an expanding musical palette and an increasing appreciation
                         for alternative sounds and styles.
+                    </p>
+
+                    <h2>Artist Frequency</h2>
+                    <div className="mt-8 p-6 bg-slate-800/50 rounded-lg" style={{ height: '375px' }}>
+                        <Pie
+                            options={pieOptions}
+                            data={pieData}
+                        />
+                    </div>
+                    <p>
+                        Looking at the most frequently appearing artists reveals an interesting pattern - while Joji,
+                        Drake, and Kanye West emerge as the top three most featured artists, they represent a small
+                        minority in an otherwise incredibly diverse collection. The fact that only a select few artists
+                        appear more than once, with the vast majority appearing just once, demonstrates a commitment
+                        to exploring different voices and styles rather than repeatedly returning to the same artists.
+                        <br />
+                        <span className="text-sm text-slate-400 italic">*This is also a testament that while my favorite artists include Frank Ocean and Kendrick Lamar, they don't release enough music to be featured consistently.</span>
                     </p>
                 </div>
             </div>
