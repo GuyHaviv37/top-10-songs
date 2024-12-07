@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Headphones, TrendingUp } from 'lucide-react';
 import { Line, Pie } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
@@ -174,14 +174,20 @@ function InsightsPage() {
                         This evolution suggests an expanding musical palette and an increasing appreciation
                         for alternative sounds and styles.
                     </p>
+                    <div className="flex items-center justify-center gap-4 my-8">
+                        <div className="h-px bg-slate-600 flex-1" />
+                        <Headphones className="w-5 h-5 text-slate-400" />
+                        <div className="h-px bg-slate-600 flex-1" />
+                    </div>
 
-                    <h2>Artist Frequency</h2>
+
                     <div className="mt-8 p-6 bg-slate-800/50 rounded-lg" style={{ height: '375px' }}>
                         <Pie
                             options={pieOptions}
                             data={pieData}
                         />
                     </div>
+                    <h2>Artist Frequency</h2>
                     <p>
                         Looking at the most frequently appearing artists reveals an interesting pattern - while Joji,
                         Drake, and Kanye West emerge as the top three most featured artists, they represent a small
