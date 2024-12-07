@@ -107,13 +107,6 @@ function InsightsPage() {
                         <Line options={options} data={data} />
                     </div>
 
-                    <h2 className="mt-12">Key Observations</h2>
-                    <ul>
-                        <li>Hip-hop dominated the selections during 2018-2019 with 8-9 songs per year</li>
-                        <li>Indie music has seen a significant rise in recent years (2022-2023), making up 60% of selections</li>
-                        <li>The trends appear to be inverse of each other, showing a clear shift in musical taste</li>
-                    </ul>
-
                     <h2>Genre Evolution</h2>
                     <p>
                         The data reveals a fascinating transformation in musical preferences over the years.
