@@ -109,34 +109,51 @@ function InsightsPage() {
         }],
     };
 
+    const getLegendFontSize = () => {
+        if (typeof window !== 'undefined') {
+            return window.matchMedia('(min-width: 640px)').matches ? 13 : 11;
+        }
+        return 11;
+    };
+
+    const getContainerHeight = () => {
+        if (typeof window !== 'undefined') {
+            return window.matchMedia('(min-width: 640px)').matches ? 550 : 450;
+        }
+        return 450;
+    };
+
     const pieOptions = {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
             legend: {
-                position: 'right' as const,
+                position: 'bottom' as const,
                 labels: {
-                    color: '#e2e8f0', // slate-200
-                    padding: 15,        // Reduced padding between items
+                    color: '#e2e8f0',
+                    padding: 15,
                     font: {
-                        size: 13        // Slightly smaller font size
-                    }
+                        size: getLegendFontSize()
+                    },
+                    boxWidth: 12
                 }
             },
             title: {
                 display: true,
                 text: 'Most Featured Artists',
-                color: '#e2e8f0', // slate-200
+                color: '#e2e8f0',
                 font: {
                     size: 16
                 },
-                padding: 15            // Reduced padding below title
+                padding: 15
             }
         },
         layout: {
             padding: {
-                left: 15,              // Reduced layout padding
-                right: 15
+                left: 15,
+                right: 15,
+                bottom: 20,
+                top: 20
             }
         }
     };
@@ -181,7 +198,10 @@ function InsightsPage() {
                     </div>
 
 
-                    <div className="mt-8 p-6 bg-slate-800/50 rounded-lg" style={{ height: '375px' }}>
+                    <div
+                        className="mt-8 p-6 bg-slate-800/50 rounded-lg"
+                        style={{ height: `${getContainerHeight()}px` }}
+                    >
                         <Pie
                             options={pieOptions}
                             data={pieData}
