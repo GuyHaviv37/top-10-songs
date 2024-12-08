@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { years } from '../data/years';
 import { YearCard } from '../components/YearCard';
 import { Music, Disc3 } from 'lucide-react';
@@ -5,7 +6,8 @@ import { FeaturedYearCard } from '../components/FeaturedYearCard';
 import { Link } from 'react-router-dom';
 
 export function HomePage() {
-  const latestYear = years[years.length - 1];
+  const sortedYears = useMemo(() => [...years].reverse(), []);
+  const latestYear = sortedYears[0];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
@@ -57,7 +59,7 @@ export function HomePage() {
         </div>
 
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {years.slice(0, years.length - 1).map((year, index) => (
+          {sortedYears.slice(1).map((year, index) => (
             <div
               key={year}
               className="transform transition-all duration-300 hover:scale-105"
