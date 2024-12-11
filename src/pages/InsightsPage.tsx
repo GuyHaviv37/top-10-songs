@@ -188,8 +188,8 @@ function InsightsPage() {
                         The data reveals a fascinating transformation in musical preferences over the years.
                         Starting with a strong foundation in hip-hop during the late 2010s, there's been a
                         gradual shift towards indie music, particularly indie rock and folk, in recent years.
-                        This evolution suggests an expanding musical palette and an increasing appreciation
-                        for alternative sounds and styles.
+                        This trend could indicate a return to my musical roots of Hard Rock and Britpop from the highschool years.
+                        It could also indicate of a general trend in the music industry where in the late 2010s Hip Hop ruled the charts, while Pop takes back over in recent years.
                     </p>
                     <div className="flex items-center justify-center gap-4 my-8">
                         <div className="h-px bg-slate-600 flex-1" />
