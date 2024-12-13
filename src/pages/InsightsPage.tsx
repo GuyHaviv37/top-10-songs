@@ -101,7 +101,9 @@ function InsightsPage() {
                 '#facc15', // yellow-400
                 '#2dd4bf', // teal-400
                 '#e879f9', // fuchsia-400
+                '#60a5fa', // blue-400 (for Other)
                 '#c084fc', // purple-400 (for Other)
+                '#fb7185', // rose-400 (for Other)
                 '#94a3b8', // slate-400 (for Other)
             ],
             borderColor: '#1e293b', // slate-800
