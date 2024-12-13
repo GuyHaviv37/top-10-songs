@@ -40,14 +40,6 @@ export const songsByYear: YearList = {
       genre: "Electronic"
     },
     {
-      title: "Coming Back To Me Good",
-      artist: "Kasabian",
-      album: "Happenings",
-      youtubeUrl: "https://youtu.be/ZcLRq3oBtnU?si=HtYh8DlUyvm5tese",
-      albumCover: "https://ia800205.us.archive.org/17/items/mbid-68b6d16f-1466-4ee2-93bb-f1abc4fe03c9/mbid-68b6d16f-1466-4ee2-93bb-f1abc4fe03c9-38096119127_thumb250.jpg",
-      genre: "Rock"
-    },
-    {
       title: "Dive",
       artist: "Holly Humberstone",
       album: "work in progress - EP",
@@ -56,12 +48,20 @@ export const songsByYear: YearList = {
       genre: "Indie pop"
     },
     {
-      title: "360",
+      title: "Sympathy is a knife",
       artist: "Charli XCX",
       album: "BRAT",
-      youtubeUrl: "https://youtu.be/WJW-VvmRKsE?si=hFuTdU5XQksi6aLC",
+      youtubeUrl: "https://youtu.be/S9s4Ckt-aKo?si=B-JWVjIXCP8xaLXf",
       albumCover: "https://ia800305.us.archive.org/25/items/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8-38462695827_thumb250.jpg",
-      genre: "Pop"
+      genre: "Electronic pop"
+    },
+    {
+      title: "Coming Back To Me Good",
+      artist: "Kasabian",
+      album: "Happenings",
+      youtubeUrl: "https://youtu.be/ZcLRq3oBtnU?si=HtYh8DlUyvm5tese",
+      albumCover: "https://ia800205.us.archive.org/17/items/mbid-68b6d16f-1466-4ee2-93bb-f1abc4fe03c9/mbid-68b6d16f-1466-4ee2-93bb-f1abc4fe03c9-38096119127_thumb250.jpg",
+      genre: "Rock"
     },
     {
       title: "Tpa",
@@ -80,12 +80,12 @@ export const songsByYear: YearList = {
       genre: "Indie pop"
     },
     {
-      title: "Don't Forget Me",
-      artist: "Maggie Rogers",
-      album: "Don't Forget Me",
-      youtubeUrl: "https://youtu.be/QC8vV5xXvO4?si=YHJKLm9QYHJKLm9Q",
-      albumCover: "https://ia601303.us.archive.org/13/items/mbid-8888da10-64d6-4b5a-b80c-e7bad87fa875/mbid-8888da10-64d6-4b5a-b80c-e7bad87fa875-37988523340_thumb250.jpg",
-      genre: "Indie pop"
+      title: "Not Like Us",
+      artist: "Kendrick Lamar",
+      album: "Not Like Us (Single)",
+      youtubeUrl: "https://youtu.be/H58vbez_m4E?si=I9lakF0FJjHlQIM_",
+      albumCover: "https://ia600309.us.archive.org/8/items/mbid-de74b543-fb5b-4c35-8530-efb277f5cad1/mbid-de74b543-fb5b-4c35-8530-efb277f5cad1-38736205358_thumb250.jpg",
+      genre: "Hip hop"
     },
     {
       title: "ten",
