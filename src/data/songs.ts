@@ -48,10 +48,10 @@ export const songsByYear: YearList = {
       genre: "Indie pop"
     },
     {
-      title: "Sympathy is a knife",
+      title: "Girl, so confusing",
       artist: "Charli XCX",
       album: "BRAT",
-      youtubeUrl: "https://youtu.be/S9s4Ckt-aKo?si=B-JWVjIXCP8xaLXf",
+      youtubeUrl: "https://youtu.be/QXKvjyoH5lM?si=IwJDyP6hxZps-ubf",
       albumCover: "https://ia800305.us.archive.org/25/items/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8-38462695827_thumb250.jpg",
       genre: "Electronic pop"
     },
