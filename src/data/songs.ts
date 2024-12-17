@@ -14,7 +14,88 @@ export type YearList = {
 };
 
 export const songsByYear: YearList = {
-  2024: [],
+  2024: [
+    {
+      title: "Casual",
+      artist: "Chappell Roan",
+      album: "The Rise and Fall of a Midwest Princess",
+      youtubeUrl: "https://youtu.be/_4BBA8y3DPc?si=SPj1imWi_PwN0G7T",
+      albumCover: "https://ia800409.us.archive.org/9/items/mbid-c425306a-974c-4ce0-ac82-742c4fa01d1a/mbid-c425306a-974c-4ce0-ac82-742c4fa01d1a-39110292877_thumb250.jpg",
+      genre: "Pop"
+    },
+    {
+      title: "Only Love Matters",
+      artist: "The Black Keys",
+      album: "Ohio Players",
+      youtubeUrl: "https://youtu.be/nyODbw9ZX28?si=Wx67qO292JfOO66U",
+      albumCover: "https://ia801303.us.archive.org/4/items/mbid-28e68838-e23a-41e4-8d55-35d9d9791b5f/mbid-28e68838-e23a-41e4-8d55-35d9d9791b5f-37748562953_thumb250.jpg",
+      genre: "Rock"
+    },
+    {
+      title: "Baddy on the Floor",
+      artist: "Jamie xx (feat. Honey Dijon)",
+      album: "In Waves",
+      youtubeUrl: "https://youtu.be/xeKSdJqFM6o?si=RFgVvWl_jrtY6-Wt",
+      albumCover: "https://ia903400.us.archive.org/32/items/mbid-6271fb07-aad2-49c7-a803-753098e2ba78/mbid-6271fb07-aad2-49c7-a803-753098e2ba78-39966928129_thumb250.jpg",
+      genre: "Electronic"
+    },
+    {
+      title: "Dive",
+      artist: "Holly Humberstone",
+      album: "work in progress - EP",
+      youtubeUrl: "https://youtu.be/0usvy3Mw2c8?si=RvTKjSuLepnheemv",
+      albumCover: "https://ia600208.us.archive.org/22/items/mbid-1b63f301-b995-4008-9ca2-8973e9b68d74/mbid-1b63f301-b995-4008-9ca2-8973e9b68d74-38304959380_thumb250.jpg",
+      genre: "Indie pop"
+    },
+    {
+      title: "Girl, so confusing",
+      artist: "Charli XCX",
+      album: "BRAT",
+      youtubeUrl: "https://youtu.be/QXKvjyoH5lM?si=IwJDyP6hxZps-ubf",
+      albumCover: "https://ia800305.us.archive.org/25/items/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8-38462695827_thumb250.jpg",
+      genre: "Electronic pop"
+    },
+    {
+      title: "Coming Back To Me Good",
+      artist: "Kasabian",
+      album: "Happenings",
+      youtubeUrl: "https://youtu.be/ZcLRq3oBtnU?si=HtYh8DlUyvm5tese",
+      albumCover: "https://ia800205.us.archive.org/17/items/mbid-68b6d16f-1466-4ee2-93bb-f1abc4fe03c9/mbid-68b6d16f-1466-4ee2-93bb-f1abc4fe03c9-38096119127_thumb250.jpg",
+      genre: "Rock"
+    },
+    {
+      title: "Tpa",
+      artist: "Bad Bad Hats",
+      album: "Bad Bad Hats",
+      youtubeUrl: "https://youtu.be/do3fH0jrRhw?si=LyCvYkGMTcOIGyDe",
+      albumCover: "https://ia600200.us.archive.org/33/items/mbid-4803c184-f9d7-49b0-b4d5-40fd48b40e65/mbid-4803c184-f9d7-49b0-b4d5-40fd48b40e65-38274352208_thumb250.jpg",
+      genre: "Indie rock"
+    },
+    {
+      title: "Risk",
+      artist: "Gracie Abrams",
+      album: "The Secret of Us (Deluxe)",
+      youtubeUrl: "https://youtu.be/TiMuT2BhwO0?si=dY-HBZnGSEoeZzBQ",
+      albumCover: "https://ia600701.us.archive.org/13/items/mbid-2aa4069a-f4ea-4ed5-8dd6-4587d1d62a8d/mbid-2aa4069a-f4ea-4ed5-8dd6-4587d1d62a8d-40392504513_thumb250.jpg",
+      genre: "Indie pop"
+    },
+    {
+      title: "Not Like Us",
+      artist: "Kendrick Lamar",
+      album: "Not Like Us (Single)",
+      youtubeUrl: "https://youtu.be/H58vbez_m4E?si=I9lakF0FJjHlQIM_",
+      albumCover: "https://ia600309.us.archive.org/8/items/mbid-de74b543-fb5b-4c35-8530-efb277f5cad1/mbid-de74b543-fb5b-4c35-8530-efb277f5cad1-38736205358_thumb250.jpg",
+      genre: "Hip hop"
+    },
+    {
+      title: "ten",
+      artist: "Fred again...",
+      album: "ten days",
+      youtubeUrl: "https://youtu.be/x4RXNO9oaS0?si=hJaMcGMHlJ-Llzjs",
+      albumCover: "https://ia801806.us.archive.org/35/items/mbid-5cdd34e7-3216-4593-a861-5337b6d5e788/mbid-5cdd34e7-3216-4593-a861-5337b6d5e788-39500798623_thumb250.jpg",
+      genre: "Electronic"
+    }
+  ],
   2023: [
     {
       title: "Bunny is a Rider",
