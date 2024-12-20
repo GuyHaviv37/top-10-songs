@@ -49,10 +49,10 @@ export const songsByYear: YearList = {
     },
     {
       title: "Girl, so confusing",
-      artist: "Charli XCX",
-      album: "BRAT",
-      youtubeUrl: "https://youtu.be/QXKvjyoH5lM?si=IwJDyP6hxZps-ubf",
-      albumCover: "https://ia800305.us.archive.org/25/items/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8/mbid-ab55ac76-eee5-4f89-ac14-7bb9aa837bc8-38462695827_thumb250.jpg",
+      artist: "Charli XCX (feat. Lorde)",
+      album: "Brat and it's completly different but also still brat",
+      youtubeUrl: "https://youtu.be/0q3K6FPzY18?si=na-oKiLAcMnlnRia",
+      albumCover: "https://ia600100.us.archive.org/31/items/mbid-51557262-53a4-41f4-a6fc-53060b5aecd6/mbid-51557262-53a4-41f4-a6fc-53060b5aecd6-40456847814_thumb250.jpg",
       genre: "Electronic pop"
     },
     {
