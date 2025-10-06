@@ -67,6 +67,7 @@ export function YearPage() {
                 theme={theme}
                 isLast={songs.length - index === 1}
                 onScrollNext={index < songs.length - 1 ? () => scrollToSection(index + 1) : undefined}
+                onScrollBack={index > 0 ? () => scrollToSection(index - 1) : undefined}
                 showScrollIndicator={index < songs.length - 1}
               />
             </section>

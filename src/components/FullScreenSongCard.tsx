@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, X, ChevronDown } from 'lucide-react';
+import { Play, X, ChevronDown, ChevronUp } from 'lucide-react';
 import { YouTubeEmbed } from './YouTubeEmbed';
 import { getYoutubeVideoId } from '../utils/youtube';
 import type { YearTheme } from '../utils/themes';
@@ -15,6 +15,7 @@ interface FullScreenSongCardProps {
     theme: YearTheme;
     isLast: boolean;
     onScrollNext?: () => void;
+    onScrollBack?: () => void;
     showScrollIndicator?: boolean;
 }
 
@@ -29,6 +30,7 @@ export function FullScreenSongCard({
     theme,
     isLast,
     onScrollNext,
+    onScrollBack,
     showScrollIndicator = true
 }: FullScreenSongCardProps) {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -43,7 +45,15 @@ export function FullScreenSongCard({
                 animationDelay: '0.2s'
             }}
         >
-            {/* Song of the Year Badge */}
+            {onScrollBack && (
+                <button
+                    onClick={onScrollBack}
+                    className={`absolute top-16 left-1/2 transform -translate-x-1/2 ${theme.text} opacity-70 hover:opacity-100 transition-all hover:scale-110 animate-bounce`}
+                    aria-label="Scroll to previous song"
+                >
+                    <ChevronUp className="h-10 w-10" />
+                </button>
+            )}
 
 
             {/* Main Content Container */}
