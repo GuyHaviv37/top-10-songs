@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Play, X, ChevronDown, ChevronUp } from 'lucide-react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 import { YouTubeEmbed } from './YouTubeEmbed';
 import { getYoutubeVideoId } from '../utils/youtube';
 import type { YearTheme } from '../utils/themes';
@@ -33,7 +32,6 @@ export function FullScreenSongCard({
     onScrollBack,
     showScrollIndicator = true
 }: FullScreenSongCardProps) {
-    const [isPlaying, setIsPlaying] = useState(false);
     const videoId = getYoutubeVideoId(youtubeUrl);
 
     return (
@@ -98,24 +96,6 @@ export function FullScreenSongCard({
                                     </div>
                                 </div>
                             </div>
-
-                            {/* Play Button */}
-                            <button
-                                onClick={() => setIsPlaying(!isPlaying)}
-                                className={`mt-6 inline-flex items-center gap-2 rounded-lg ${theme.buttonBg} px-6 py-3 text-base sm:text-lg font-semibold ${theme.buttonText} ${theme.buttonHoverBg} transition-all hover:scale-105 shadow-lg`}
-                            >
-                                {isPlaying ? (
-                                    <>
-                                        <X className="h-5 w-5" />
-                                        Close Player
-                                    </>
-                                ) : (
-                                    <>
-                                        <Play className="h-5 w-5" />
-                                        Play Song
-                                    </>
-                                )}
-                            </button>
                         </div>
 
                         {/* Right: Album Cover */}
@@ -130,7 +110,7 @@ export function FullScreenSongCard({
                     </div>
 
                     {/* YouTube Embed */}
-                    {isPlaying && videoId && (
+                    {videoId && (
                         <div
                             className="mt-8"
                             style={{
