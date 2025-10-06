@@ -46,7 +46,7 @@ export function FullScreenSongCard({
             {onScrollBack && (
                 <button
                     onClick={onScrollBack}
-                    className={`absolute top-16 left-1/2 transform -translate-x-1/2 ${theme.text} opacity-70 hover:opacity-100 transition-all hover:scale-110 animate-bounce`}
+                    className={`hidden sm:block absolute top-16 left-1/2 transform -translate-x-1/2 ${theme.text} opacity-70 hover:opacity-100 transition-all hover:scale-110 animate-bounce`}
                     aria-label="Scroll to previous song"
                 >
                     <ChevronUp className="h-10 w-10" />
@@ -56,6 +56,7 @@ export function FullScreenSongCard({
 
             {/* Main Content Container */}
             <div className={`w-full max-w-6xl relative`}>
+                {/* Song of the Year Badge */}
                 {isLast && (
                     <div
                         className={`text-center opacity-90 ${theme.text} z-10 mb-8`}
@@ -71,51 +72,85 @@ export function FullScreenSongCard({
                         <div className="mt-2 h-1 mx-auto w-24 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
                     </div>
                 )}
-                <div className={`rounded-2xl ${theme.cardBg} p-6 sm:p-8 lg:p-12 shadow-2xl transition-all ${isLast ? 'shadow-[0_0_40px_0px_rgba(255,215,0,0.4)] ring-4 ring-yellow-400/30' : ''
-                    }`}>
-                    {/* Top Section: Song Info and Album Cover */}
-                    <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
-                        {/* Left: Song Information */}
-                        <div className="flex-1 w-full">
-                            <div className="flex items-start gap-4">
-                                <span className={`text-5xl sm:text-6xl lg:text-7xl font-bold ${theme.numberColor} ${isLast ? 'text-yellow-400' : ''
-                                    }`}>
-                                    #{position.toString().padStart(2, '0')}
-                                </span>
-                                <div className="flex-1 min-w-0">
-                                    <h2 className={`text-2xl sm:text-3xl lg:text-4xl font-bold ${theme.text} mb-2 break-words`}>
-                                        {title}
-                                    </h2>
-                                    <p className={`text-lg sm:text-xl ${theme.text} opacity-90 mb-1`}>
-                                        {artist}
-                                    </p>
-                                    <div className="flex flex-wrap gap-2 sm:gap-4 text-sm sm:text-base text-gray-600">
-                                        <span>{album}</span>
-                                        <span className="hidden sm:inline">•</span>
-                                        <span>{genre}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        {/* Right: Album Cover */}
-                        <div className="w-full lg:w-auto flex justify-center lg:justify-end">
+                <div className={`rounded-2xl ${theme.cardBg} shadow-2xl transition-all overflow-hidden ${isLast ? 'shadow-[0_0_40px_0px_rgba(255,215,0,0.4)] ring-4 ring-yellow-400/30' : ''
+                    }`}>
+                    {/* Mobile Layout (< sm) */}
+                    <div className="block sm:hidden p-6 border-b border-gray-200/20">
+                        {/* Row 1: Rank + Small Album Art */}
+                        <div className="flex justify-between mb-4">
+                            <span className={`text-5xl font-bold ${theme.numberColor} ${isLast ? 'text-yellow-400' : ''
+                                }`}>
+                                #{position.toString().padStart(2, '0')}
+                            </span>
                             <img
                                 src={albumCover}
                                 alt={`${album} cover`}
-                                className={`h-48 w-48 sm:h-56 sm:w-56 lg:h-64 lg:w-64 rounded-2xl object-cover shadow-2xl transition-transform hover:scale-105 ${isLast ? 'ring-4 ring-yellow-400/50' : ''
+                                className={`h-20 w-20 rounded-lg object-cover shadow-lg ${isLast ? 'ring-2 ring-yellow-400/50' : ''
+                                    }`}
+                            />
+                        </div>
+
+                        {/* Row 2: All Info Stacked */}
+                        <div>
+                            <h2 className={`text-2xl font-bold ${theme.text} mb-1 break-words leading-tight`}>
+                                {title}
+                            </h2>
+                            <p className={`text-lg ${theme.text} opacity-90 mb-2 font-medium`}>
+                                {artist}
+                            </p>
+                            <div className="flex flex-wrap gap-2 text-sm text-gray-500">
+                                <span>{album}</span>
+                                <span>•</span>
+                                <span>{genre}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Desktop Layout (≥ sm) - Headliner Style */}
+                    <div className="hidden sm:flex items-center gap-6 lg:gap-8 p-8 lg:p-10 border-b border-gray-200/20">
+                        {/* Rank Number */}
+                        <div className="flex-shrink-0">
+                            <span className={`text-7xl lg:text-8xl font-bold ${theme.numberColor} ${isLast ? 'text-yellow-400' : ''
+                                }`}>
+                                #{position.toString().padStart(2, '0')}
+                            </span>
+                        </div>
+
+                        {/* Title & Artist Info */}
+                        <div className="flex-1 min-w-0">
+                            <h2 className={`text-3xl lg:text-4xl font-bold ${theme.text} mb-2 break-words leading-tight`}>
+                                {title}
+                            </h2>
+                            <p className={`text-2xl ${theme.text} opacity-90 mb-2 font-medium`}>
+                                {artist}
+                            </p>
+                            <div className="flex flex-wrap gap-2 text-base text-gray-500">
+                                <span>{album}</span>
+                                <span>•</span>
+                                <span>{genre}</span>
+                            </div>
+                        </div>
+
+                        {/* Album Cover */}
+                        <div className="flex-shrink-0">
+                            <img
+                                src={albumCover}
+                                alt={`${album} cover`}
+                                className={`h-40 w-40 lg:h-48 lg:w-48 rounded-xl object-cover shadow-2xl transition-transform hover:scale-105 ${isLast ? 'ring-4 ring-yellow-400/50' : ''
                                     }`}
                             />
                         </div>
                     </div>
 
-                    {/* YouTube Embed */}
+                    {/* YouTube Embed Section */}
                     {videoId && (
                         <div
-                            className="mt-8"
+                            className="p-6 sm:p-8 lg:p-10 bg-black/5"
                             style={{
                                 opacity: 0,
-                                animation: 'fadeSlideIn 0.4s ease-out forwards'
+                                animation: 'fadeSlideIn 0.4s ease-out forwards',
+                                animationDelay: '0.3s'
                             }}
                         >
                             <YouTubeEmbed videoId={videoId} />
@@ -128,7 +163,7 @@ export function FullScreenSongCard({
             {showScrollIndicator && onScrollNext && (
                 <button
                     onClick={onScrollNext}
-                    className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 ${theme.text} opacity-70 hover:opacity-100 transition-all hover:scale-110 animate-bounce`}
+                    className={`hidden sm:block absolute bottom-8 left-1/2 transform -translate-x-1/2 ${theme.text} opacity-70 hover:opacity-100 transition-all hover:scale-110 animate-bounce`}
                     aria-label="Scroll to next song"
                 >
                     <ChevronDown className="h-10 w-10" />
