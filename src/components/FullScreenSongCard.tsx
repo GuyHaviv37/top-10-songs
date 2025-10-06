@@ -44,24 +44,25 @@ export function FullScreenSongCard({
             }}
         >
             {/* Song of the Year Badge */}
-            {isLast && (
-                <div
-                    className={`absolute top-8 left-1/2 transform -translate-x-1/2 text-center opacity-90 ${theme.text} z-10`}
-                    style={{
-                        opacity: 0,
-                        animation: 'fadeSlideIn 0.5s ease-out forwards',
-                        animationDelay: '0.4s'
-                    }}
-                >
-                    <div className="text-2xl sm:text-3xl font-bold tracking-wider">
-                        🏆 Song of the Year 🏆
-                    </div>
-                    <div className="mt-2 h-1 mx-auto w-24 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
-                </div>
-            )}
+
 
             {/* Main Content Container */}
-            <div className={`w-full max-w-6xl ${isLast ? 'mt-16' : ''}`}>
+            <div className={`w-full max-w-6xl relative`}>
+                {isLast && (
+                    <div
+                        className={`text-center opacity-90 ${theme.text} z-10 mb-8`}
+                        style={{
+                            opacity: 0,
+                            animation: 'fadeSlideIn 0.5s ease-out forwards',
+                            animationDelay: '0.4s'
+                        }}
+                    >
+                        <div className="text-2xl sm:text-3xl font-bold tracking-wider">
+                            🏆 Song of the Year 🏆
+                        </div>
+                        <div className="mt-2 h-1 mx-auto w-24 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
+                    </div>
+                )}
                 <div className={`rounded-2xl ${theme.cardBg} p-6 sm:p-8 lg:p-12 shadow-2xl transition-all ${isLast ? 'shadow-[0_0_40px_0px_rgba(255,215,0,0.4)] ring-4 ring-yellow-400/30' : ''
                     }`}>
                     {/* Top Section: Song Info and Album Cover */}
