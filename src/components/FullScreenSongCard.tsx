@@ -2,15 +2,10 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { YouTubeEmbed } from './YouTubeEmbed';
 import { getYoutubeVideoId } from '../utils/youtube';
 import type { YearTheme } from '../utils/themes';
+import type { Song } from '../data/songs';
 
-interface FullScreenSongCardProps {
+type FullScreenSongCardProps = Song & {
     position: number;
-    title: string;
-    artist: string;
-    album: string;
-    youtubeUrl: string;
-    albumCover: string;
-    genre: string;
     theme: YearTheme;
     isLast: boolean;
     onScrollNext?: () => void;
