@@ -14,6 +14,88 @@ export type YearList = {
 };
 
 export const songsByYear: YearList = {
+  2025: [
+    {
+      title: "Mr. Mounteback",
+      artist: "Djo",
+      album: "The Crux (Deluxe)",
+      youtubeUrl: "https://www.youtube.com/watch?v=zxkVkm3VHxk",
+      albumCover: "https://dn721908.ca.archive.org/0/items/mbid-79bbe524-6140-41ff-beec-3c24c3187448/mbid-79bbe524-6140-41ff-beec-3c24c3187448-43019383340_thumb250.jpg",
+      genre: "Alternative"
+    },
+    {
+      title: "Forever",
+      artist: 'ZULAN',
+      album: "Forever - Single",
+      youtubeUrl: "https://www.youtube.com/watch?v=0cytQxa7VJA",
+      albumCover: "https://ia801906.us.archive.org/34/items/mbid-75b4e239-011d-458f-9e1c-85b22da3bad6/mbid-75b4e239-011d-458f-9e1c-85b22da3bad6-41709430141_thumb250.jpg",
+      genre: "Indie electronic"
+    },
+    {
+      title: "One of the Greats",
+      artist: "Florence + The Machine",
+      album: "Everybody Scream",
+      youtubeUrl: "https://www.youtube.com/watch?v=t7XL4ehHoE0",
+      albumCover: "https://dn720703.ca.archive.org/0/items/mbid-9ed0d7e9-5ded-4761-b4c1-729a689ac509/mbid-9ed0d7e9-5ded-4761-b4c1-729a689ac509-43439712782_thumb250.jpg",
+      genre: "Alternative"
+    },
+    {
+      title: "Loser",
+      artist: "Tame Impala",
+      album: "Deadbeat",
+      youtubeUrl: "https://www.youtube.com/watch?v=s3a4OQR-10M",
+      albumCover: "https://dn720709.ca.archive.org/0/items/mbid-e0cb9499-9a55-4384-8d4b-bf49bf560945/mbid-e0cb9499-9a55-4384-8d4b-bf49bf560945-42948467474_thumb250.jpg",
+      genre: "Alternative"
+    },
+    {
+      title: "Count the Ways",
+      artist: "The Last Dinner Party",
+      album: "From The Pyre",
+      youtubeUrl: "https://www.youtube.com/watch?v=UKXIJqT7B2o",
+      albumCover: "https://ia800609.us.archive.org/13/items/mbid-bfb5cae7-b585-4065-a1de-c9adaa8629c2/mbid-bfb5cae7-b585-4065-a1de-c9adaa8629c2-43932497021_thumb250.jpg",
+      genre: "Indie rock"
+    },
+    {
+      title: "Jellyfish",
+      artist: "Sigrid",
+      album: "There's Always More That I Could Say",
+      youtubeUrl: "https://www.youtube.com/watch?v=NRS3hALp_A8",
+      albumCover: "https://dn721901.ca.archive.org/0/items/mbid-c1b69ae9-f40f-40ba-a777-3266f40c6d31/mbid-c1b69ae9-f40f-40ba-a777-3266f40c6d31-42835726109_thumb250.jpg",
+      genre: "Pop"
+    },
+    {
+      title: "The Subway",
+      artist: "Chappell Roan",
+      album: "The Subway - Single",
+      albumCover: "https://dn710006.ca.archive.org/0/items/mbid-dabdf011-8f09-4c90-a416-8bb0352e6b47/mbid-dabdf011-8f09-4c90-a416-8bb0352e6b47-42729305939_thumb250.jpg",
+      youtubeUrl: "https://www.youtube.com/watch?v=woLfAvD5iXI",
+      genre: "Pop"
+    },
+    {
+      title: "Giving Up Air",
+      artist: "The Temper Trap",
+      album: "Giving Up Air - Single",
+      albumCover: "https://ia601704.us.archive.org/21/items/mbid-b5ab8937-7b41-41b6-9ae7-e280b4114718/mbid-b5ab8937-7b41-41b6-9ae7-e280b4114718-43419669611_thumb250.jpg",
+      youtubeUrl: "https://www.youtube.com/watch?v=m6M8TdX2Zr4",
+      genre: "Pop"
+    },
+    {
+      title: "No Front Teeth",
+      artist: "Perfume Genius (ft. Aldous Harding)",
+      album: "Glory",
+      youtubeUrl: "https://www.youtube.com/watch?v=U1sffNdzjPU",
+      albumCover: "https://ia601802.us.archive.org/17/items/mbid-570c507b-f4e3-4568-a57d-60120068bcc2/mbid-570c507b-f4e3-4568-a57d-60120068bcc2-41599003569_thumb250.jpg",
+      genre: "Alternative"
+    },
+    {
+      title: "Take Me There",
+      artist: "Anthony Szmierek",
+      album: "Service Station at the End of the Universe",
+      youtubeUrl: "https://www.youtube.com/watch?v=xhqlOPAeUT8",
+      albumCover: "https://ia601408.us.archive.org/7/items/mbid-5083e4a8-8c2f-40d4-98c2-e3dd647ef32d/mbid-5083e4a8-8c2f-40d4-98c2-e3dd647ef32d-41150482280_thumb250.jpg",
+      genre: "Indie electronic",
+    },
+  ],
   2024: [
     {
       title: "Casual",
