@@ -12,6 +12,16 @@ export interface YearTheme {
 }
 
 export const yearThemes: Record<Year, YearTheme> = {
+  2025: {
+    background: 'from-red-100 via-pink-100 to-purple-200',
+    cardBg: 'bg-white/90 backdrop-blur-sm',
+    accent: 'border-l-4 border-red-500',
+    text: 'text-red-950',
+    numberColor: 'text-red-300',
+    buttonBg: 'bg-red-100',
+    buttonText: 'text-red-700',
+    buttonHoverBg: 'hover:bg-red-200'
+  },
   2024: {
     background: 'from-cyan-100 via-blue-200 to-indigo-300',
     cardBg: 'bg-white/90 backdrop-blur-sm',
