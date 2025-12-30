@@ -29,7 +29,7 @@ export const songsByYear: YearList = {
       album: "Forver - Single",
       youtubeUrl: "https://www.youtube.com/watch?v=0cytQxa7VJA",
       albumCover: "https://ia801906.us.archive.org/34/items/mbid-75b4e239-011d-458f-9e1c-85b22da3bad6/mbid-75b4e239-011d-458f-9e1c-85b22da3bad6-41709430141_thumb250.jpg",
-      genre: "Electronic"
+      genre: "Indie electronic"
     },
     {
       title: "One of the Greats",
@@ -53,7 +53,7 @@ export const songsByYear: YearList = {
       album: "From The Pyre",
       youtubeUrl: "https://www.youtube.com/watch?v=UKXIJqT7B2o",
       albumCover: "https://ia800609.us.archive.org/13/items/mbid-bfb5cae7-b585-4065-a1de-c9adaa8629c2/mbid-bfb5cae7-b585-4065-a1de-c9adaa8629c2-43932497021_thumb250.jpg",
-      genre: "Alternative"
+      genre: "Indie rock"
     },
     {
       title: "Jellyfish",
@@ -93,7 +93,7 @@ export const songsByYear: YearList = {
       album: "Service Station at the End of the Universe",
       youtubeUrl: "https://www.youtube.com/watch?v=xhqlOPAeUT8",
       albumCover: "https://ia601408.us.archive.org/7/items/mbid-5083e4a8-8c2f-40d4-98c2-e3dd647ef32d/mbid-5083e4a8-8c2f-40d4-98c2-e3dd647ef32d-41150482280_thumb250.jpg",
-      genre: "Electronic",
+      genre: "Indie electronic",
     },
   ],
   2024: [
