@@ -24,9 +24,9 @@ export const songsByYear: YearList = {
       genre: "Alternative"
     },
     {
-      title: "Forver",
+      title: "Forever",
       artist: 'ZULAN',
-      album: "Forver - Single",
+      album: "Forever - Single",
       youtubeUrl: "https://www.youtube.com/watch?v=0cytQxa7VJA",
       albumCover: "https://ia801906.us.archive.org/34/items/mbid-75b4e239-011d-458f-9e1c-85b22da3bad6/mbid-75b4e239-011d-458f-9e1c-85b22da3bad6-41709430141_thumb250.jpg",
       genre: "Indie electronic"
@@ -81,7 +81,7 @@ export const songsByYear: YearList = {
     },
     {
       title: "No Front Teeth",
-      artist: "Perfume Genuis (ft. Aldous Harding)",
+      artist: "Perfume Genius (ft. Aldous Harding)",
       album: "Glory",
       youtubeUrl: "https://www.youtube.com/watch?v=U1sffNdzjPU",
       albumCover: "https://ia601802.us.archive.org/17/items/mbid-570c507b-f4e3-4568-a57d-60120068bcc2/mbid-570c507b-f4e3-4568-a57d-60120068bcc2-41599003569_thumb250.jpg",
