@@ -14,7 +14,7 @@ export function YearPage() {
   const songs = [...(songsByYear[yearNum] || [])].reverse();
   const theme = yearThemes[yearNum];
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
-  const SpotifyPlaylist = spotifyPlaylistsByYear[yearNum] || null;
+  const SpotifyPlaylistComponent = spotifyPlaylistsByYear[yearNum] || null;
   const [showPlaylistHint, setShowPlaylistHint] = useState(true);
 
 
@@ -62,7 +62,7 @@ export function YearPage() {
         ) : (
           <>
             {songs.map((song, index) => {
-              const hasNextSection = index < songs.length - 1 || SpotifyPlaylist !== null;
+              const hasNextSection = index < songs.length - 1 || SpotifyPlaylistComponent !== null;
               const isFirstSong = index === 0;
               return (
                 <section
@@ -70,7 +70,7 @@ export function YearPage() {
                   ref={(el) => (sectionRefs.current[index] = el)}
                   className="snap-start snap-always"
                 >
-                  {isFirstSong && SpotifyPlaylist && showPlaylistHint && (
+                  {isFirstSong && SpotifyPlaylistComponent && showPlaylistHint && (
                     <SpotifyPlaylistHint theme={theme} hideHint={() => setShowPlaylistHint(false)} />
                   )}
                   <FullScreenSongCard
@@ -87,7 +87,7 @@ export function YearPage() {
             })}
             
             {/* Spotify Playlist Section */}
-            {SpotifyPlaylist && (
+            {SpotifyPlaylistComponent && (
               <section
                 ref={(el) => (sectionRefs.current[songs.length] = el)}
                 className="snap-start snap-always"
@@ -114,7 +114,7 @@ export function YearPage() {
                         Full Playlist on Spotify
                       </h2>
                       <div className="w-full">
-                        <SpotifyPlaylist height={352} />
+                        <SpotifyPlaylistComponent height={352} />
                       </div>
                     </div>
                   </div>

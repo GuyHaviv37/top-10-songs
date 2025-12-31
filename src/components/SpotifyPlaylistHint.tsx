@@ -5,7 +5,7 @@ const SpotifyPlaylistHint = ({ theme, hideHint }: { theme: YearTheme, hideHint: 
     
     return (
         <div
-            className={`fixed top-20 right-4 z-40 ${theme.cardBg} rounded-lg shadow-lg p-3 pr-8 max-w-xs border ${theme.accent} border-lime-500`}
+            className={`fixed top-20 right-4 z-40 ${theme.cardBg} rounded-lg shadow-lg p-3 pr-8 max-w-xs border border-1-4 border-lime-500`}
             style={{
                 opacity: 0,
                 animation: 'fadeSlideIn 0.6s ease-out forwards',
