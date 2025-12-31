@@ -1,10 +1,12 @@
-import { useRef } from 'react';
+import { useState, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ChevronUp } from 'lucide-react';
 import { songsByYear } from '../data/songs';
 import { yearThemes } from '../utils/themes';
 import type { Year } from '../data/years';
 import { FullScreenSongCard } from '../components/FullScreenSongCard';
+import { spotifyPlaylistsByYear } from '../data/spotify-playlists';
+import SpotifyPlaylistHint from '../components/SpotifyPlaylistHint';
 
 export function YearPage() {
   const { year } = useParams<{ year: string }>();
@@ -12,6 +14,9 @@ export function YearPage() {
   const songs = [...(songsByYear[yearNum] || [])].reverse();
   const theme = yearThemes[yearNum];
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
+  const SpotifyPlaylistComponent = spotifyPlaylistsByYear[yearNum] || null;
+  const [showPlaylistHint, setShowPlaylistHint] = useState(true);
+
 
   const scrollToSection = (index: number) => {
     sectionRefs.current[index]?.scrollIntoView({ behavior: 'smooth' });
@@ -55,23 +60,68 @@ export function YearPage() {
             </h2>
           </div>
         ) : (
-          songs.map((song, index) => (
-            <section
-              key={index}
-              ref={(el) => (sectionRefs.current[index] = el)}
-              className="snap-start snap-always"
-            >
-              <FullScreenSongCard
-                {...song}
-                position={songs.length - index}
-                theme={theme}
-                isLast={songs.length - index === 1}
-                onScrollNext={index < songs.length - 1 ? () => scrollToSection(index + 1) : undefined}
-                onScrollBack={index > 0 ? () => scrollToSection(index - 1) : undefined}
-                showScrollIndicator={index < songs.length - 1}
-              />
-            </section>
-          ))
+          <>
+            {songs.map((song, index) => {
+              const hasNextSection = index < songs.length - 1 || SpotifyPlaylistComponent !== null;
+              const isFirstSong = index === 0;
+              return (
+                <section
+                  key={index}
+                  ref={(el) => (sectionRefs.current[index] = el)}
+                  className="snap-start snap-always"
+                >
+                  {isFirstSong && SpotifyPlaylistComponent && showPlaylistHint && (
+                    <SpotifyPlaylistHint theme={theme} hideHint={() => setShowPlaylistHint(false)} />
+                  )}
+                  <FullScreenSongCard
+                    {...song}
+                    position={songs.length - index}
+                    theme={theme}
+                    isLast={songs.length - index === 1}
+                    onScrollNext={hasNextSection ? () => scrollToSection(index + 1) : undefined}
+                    onScrollBack={index > 0 ? () => scrollToSection(index - 1) : undefined}
+                    showScrollIndicator={hasNextSection}
+                  />
+                </section>
+              );
+            })}
+            
+            {/* Spotify Playlist Section */}
+            {SpotifyPlaylistComponent && (
+              <section
+                ref={(el) => (sectionRefs.current[songs.length] = el)}
+                className="snap-start snap-always"
+              >
+                <div
+                  className="relative flex h-screen w-full flex-col items-center justify-center px-4 sm:px-6 lg:px-8"
+                  style={{
+                    opacity: 0,
+                    animation: 'fadeSlideIn 0.6s ease-out forwards',
+                    animationDelay: '0.2s'
+                  }}
+                >
+                  <button
+                    onClick={() => scrollToSection(songs.length - 1)}
+                    className={`hidden sm:block absolute top-16 left-1/2 transform -translate-x-1/2 ${theme.text} opacity-70 hover:opacity-100 transition-all hover:scale-110 animate-bounce`}
+                    aria-label="Scroll to previous song"
+                  >
+                    <ChevronUp className="h-10 w-10" />
+                  </button>
+
+                  <div className="w-full max-w-6xl">
+                    <div className={`rounded-2xl ${theme.cardBg} shadow-2xl p-6 sm:p-8 lg:p-10`}>
+                      <h2 className={`text-2xl sm:text-3xl font-bold ${theme.text} mb-4 sm:mb-6 text-center`}>
+                        Full Playlist on Spotify
+                      </h2>
+                      <div className="w-full">
+                        <SpotifyPlaylistComponent height={352} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            )}
+          </>
         )}
       </div>
     </div>
