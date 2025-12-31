@@ -64,7 +64,6 @@ export function YearPage() {
             {songs.map((song, index) => {
               const hasNextSection = index < songs.length - 1 || SpotifyPlaylist !== null;
               const isFirstSong = index === 0;
-              console.log(isFirstSong, index);
               return (
                 <section
                   key={index}
